@@ -3,115 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>filledchurros.html</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Filled Churros Recipe</title>
+    <style>
+        /* Styles for resetting and base settings */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f06, #ff9); /* Background gradient */
+            color: #333; /* Dark text color */
+        }
+
+        /* Header styles */
+        header {
+            background-color: #ffcc00; /* Yellow background */
+            color: indigo; /* Dark purple text */
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 0 50% 50%; /* Curved bottom corners */
+            border: 3px double blueviolet; /* Double border with purple */
+        }
+
+        /* Main section styles */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            padding: 20px;
+            background-color: lightskyblue; /* Light blue background */
+            border-radius: 25px; /* Rounded corners */
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background-color: rgba(64, 3, 114, 0.774); /* Purple semi-transparent background */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            border-radius: 10px;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        th {
+            background: linear-gradient(45deg, #ff5722, #ff9800); /* Gradient background for headers */
+            color: white;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        tbody tr:nth-child(odd) {
+            background: #f9f9f9; /* Light gray background for odd rows */
+        }
+
+        tbody tr:hover {
+            background: #e93d46; /* Reddish background on hover */
+            transform: scale(1.02); /* Slightly scale up on hover */
+        }
+
+        tfoot {
+            background: linear-gradient(45deg, #c0409a, #a80e0e); /* Gradient background for footer */
+            color: rgba(214, 8, 111, 0.425); /* Semi-transparent text color */
+            text-align: center;
+        }
+
+        /* Animation keyframes */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Links styles */
+        a {
+            color: #4a148c; /* Purple link color */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #7b1fa2; /* Lighter purple on hover */
+        }
+    </style>
 </head>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-
-header {
-    background-color: #ffcc00;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    background-color: #333;
-    overflow: hidden;
-    color: white;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    padding: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-section {
-    margin-bottom: 20px;
-}
-</style>
 <body>
+    <!-- Header section -->
     <header>
-    <nav>
-        li><a href="https://www.tastemade.co.uk/videos/churro-bombs/" alt="churro bombs" target="_blank">churrobombs.html"></a></li>
-        <li><a href="https://www.youtube.com/watch?v=Rk9VGiOpsNsRecipe" alt="churros with filling" target="_blank">Churros with filling</a></li>
-        <li><a href="https://www.youtube.com/watch?v=LAMO7mnPMtk" alt="dyi cake pops" target="_blank">cakepops.html</a></li>
-        <li><a href="https://cakesbymk.com/recipe/easy-cake-pops/" target="_blank" alt="cake pops from scratch">cakepops2.html</a></li>
-      </ul> 
-     </nav>
-        
+        <h1>What is a Filled Churro?</h1>
+        <p>Filled churros are an exciting variation of the classic churro, offering a delicious surprise inside. These churros are filled with various types of fillings such as chocolate, caramel, or fruit jams. They are a popular treat that adds an extra layer of flavor and texture to the traditional churro experience.</p>
+        <p>The exterior remains crispy and coated with cinnamon sugar, while the inside bursts with your favorite filling. Perfect for dessert lovers who enjoy a little extra sweetness!</p>
     </header>
-    <div>h1>What is a Filled Churro?</h1></div>
- 
-        <section>
-            <p>Filled churros are an exciting variation of the classic churro, offering a delicious surprise inside. These churros are filled with various types of fillings such as chocolate, caramel, or even fruit jams. They are a popular treat that adds an extra layer of flavor and texture to the traditional churro experience.</p>
-            <p>The exterior of filled churros remains crispy and coated with cinnamon sugar, while the inside bursts with your favorite filling. They are perfect for dessert lovers who enjoy a little extra sweetness in every bite.</p>
-        </section>
 
+    <!-- Main content section -->
     <main>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>1 cup water</li>
-            <li>2 tablespoons sugar</li>
-            <li>1/2 teaspoon salt</li>
-            <li>1/2 cup butter</li>
-            <li>1 cup all-purpose flour</li>
-            <li>3 eggs</li>
-            <li>1/2 teaspoon vanilla extract</li>
-            <li>Oil for frying</li>
-            <li>Sugar and cinnamon for coating</li>
-            <li>Filling of your choice (chocolate, caramel, etc.)</li>
-        </ul>
-        <h2>Steps</h2>
-        <ol>
-            <li>In a saucepan, combine water, sugar, salt, and butter. Bring to a boil.</li>
-            <li>Add flour and stir until mixture forms a ball.</li>
-            <li>Remove from heat and let cool slightly.</li>
-            <li>Add eggs one at a time, beating well after each addition.</li>
-            <li>Stir in vanilla extract.</li>
-            <li>Heat oil in a deep-fryer or large saucepan to 375°F (190°C).</li>
-            <li>Pipe dough into hot oil using a pastry bag fitted with a star tip. Fry until golden brown.</li>
-            <li>Drain on paper towels.</li>
-            <li>Roll warm churros in sugar and cinnamon mixture.</li>
-            <li>Fill each churro with your desired filling using a piping bag.</li>
-        </ol>
-        <section>
-        <ul>
-            <li><a href="index.html" target="_blank" alt="odins recipes">Odins recipes</a>
-            <li><a href="cakepops.html" target="_blank" alt="cakepops.html">Churros with Filling Recipe</a></li>
-            <li><a href="cakepops2.html"target="_blank" alt="cakepops2.html">cake pops recipe</a></li>
-            <li><a href="churrobombs.html" target="_blank" alt="cakepops.html">Churros with Filling Recipe</a></li>
-            <li><a href="churros.html"target="_blank" alt="cakepops2.html">cake pops recipe</a></li>
-        </ul>
-        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Recipe Steps</th>
+                    <th>Other Recipe Links</th>
+                    <th>Ingredients</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Recipe steps rows -->
+                <tr>
+                    <td>In a saucepan, combine water, sugar, salt, and butter. Bring to a boil.</td>
+                    <td><a href="./churrobombs.html" target="_self">Churro Bombs</a></td>
+                    <td>1 cup water</td>
+                </tr>
+                <tr>
+                    <td>Remove from heat and let cool slightly.</td>
+                    <td><a href="./index.html" target="_blank">Home Page</a></td>
+                    <td>2 tablespoons sugar</td>
+                </tr>
+                <tr>
+                    <td>Add eggs one at a time, beating well after each addition.</td>
+                    <td><a href="./churros.html" target="_blank">Churros Recipe</a></td>
+                    <td>1/2 teaspoon salt</td>
+                </tr>
+                <tr>
+                    <td>Stir in vanilla extract.</td>
+                    <td><a href="./cakepops.html" target="_blank">Cakepop Recipe</a></td>
+                    <td>1/2 cup butter</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <!-- Footer rows -->
+                <tr>
+                    <td>Heat oil in a deep-fryer or large saucepan to 375°F (190°C).</td>
+                    <td><a href="./cakepops2.html" target="_blank">CakePop Recipe #2</a></td>
+                    <td>3 eggs</td>
+                </tr>
+                <tr>
+                    <td>Roll warm churros in sugar and cinnamon mixture.</td>
+                    <td><a href="https://cakesbymk.com/recipe/easy-cake-pops/" target="_blank">Cake Pops from Scratch</a></td>
+                    <td>2 tablespoons cinnamon-sugar</td>
+                </tr>
+                <tr>
+                    <td>Pipe dough into hot oil using a pastry bag fitted with a star tip. Fry until golden brown.</td>
+                    <td><a href="https://www.youtube.com/watch?v=LAMO7mnPMtk" target="_blank">Cakepops Recipe Video</a></td>
+                    <td>1/2 teaspoon vanilla extract</td>
+                </tr>
+                <tr>
+                    <td>Fill each churro with desired filling using a piping bag.</td>
+                    <td><a href="https://www.youtube.com/watch?v=Rk9VGiOpsNs" target="_blank">Churros with Filling Video</a></td>
+                    <td>Mix of hot fudge, Nutella, or caramel (optional)</td>
+                </tr>
+                <tr>
+                    <td>Drain on paper towels.</td>
+                    <td><a href="https://www.youtube.com/watch?v=LAMO7mnPMtk" target="_blank">Cakepops Recipe Video</a></td>
+                    <td>—</td>
+                </tr>
+            </tfoot>
+        </table>
     </main>
-   
 </body>
 </html>
